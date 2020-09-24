@@ -1,0 +1,284 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#headerDiv {
+  position: absolute;
+  width: 100%;
+  height: 60%;
+}
+
+#imageHeaderDiv {
+  width: 100%;
+  height: 100%;
+}
+
+#loginForm {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 60%;
+  position: absolute;
+  height: 60%;
+  width: 17%;
+  list-style-type: none;
+  background: rgba(63, 63, 63, 0.6);
+  padding-left: 2%;
+}
+
+#loginForm li {
+  margin-bottom: 7%;
+  margin-right: 10%;
+}
+
+#loginText {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 150%;
+  width: 80%;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 70%;
+  margin: auto;
+}
+
+#afterNumbersText {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  align-items: center;
+  text-align: center;
+  margin: 3%;
+  color: #3f3f3f;
+}
+
+#email {
+  text-align: center;
+  width: 100%;
+  height: 130%;
+  background: #ffffff;
+  border: 1px solid #e1d5d5;
+  box-sizing: border-box;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#loginButton {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #ffde25;
+  padding: 5%;
+  width: 100%;
+}
+
+#textUnderPhoto {
+  text-align: center;
+  margin: auto;
+  position: relative;
+  padding: 35% 0 3% 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  color: #3f3f3f;
+}
+
+.lists {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 60%;
+}
+
+.lists li {
+  border: 1px solid #dcdcdc;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+
+.lists li div h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: #3f3f3f;
+}
+
+.lists li div p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  color: #3f3f3f;
+}
+
+.number {
+  color: #3f3f3f;
+  font-size: 60px;
+  margin: 5%;
+}
+
+.peopleLi {
+  margin: 3%;
+}
+
+.personImg {
+  border-radius: 50%;
+  margin: 10%;
+}
+
+#finalButton {
+  background: #f16529;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 1% 4% 1% 4%;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+#divForFinalButton {
+  margin: auto;
+  width: 15%;
+}
+
+#webIcons {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-items: center;
+  margin: auto;
+  width: 60%;
+}
+
+#footerList {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-items: center;
+  margin: auto;
+  position: relative;
+  width: 23%;
+}
+
+#webIcons li {
+  margin: 5%;
+}
+
+#footerList li {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 130.08%;
+  margin: 3% 3% 0 3%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #373737;
+}
+
+footer {
+  margin: 0;
+  background: rgba(220, 220, 220, 0.6);
+}
+
+footer p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  width: 60%;
+  margin: 1% 15% 0% 20%;
+  text-align: center;
+  color: #373737;
+}
+
+#idForWebIcons {
+  margin: auto;
+}
+
+@media only screen and (max-width: 920px) {
+  .lists {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15% 15% 0 15%;
+  }
+
+  .polygon {
+    transform: rotate(90deg);
+  }
+  #webIcons li {
+    margin: auto;
+    width: 60%;
+  }
+
+  #loginText {
+    padding-top: 30%;
+    width: 90%;
+  }
+
+  #loginForm {
+    margin: 0 0 0 50%;
+    position: absolute;
+    height: 60%;
+    width: 45%;
+  }
+  #email {
+    height: 200%;
+  }
+
+  #loginForm li {
+    margin-bottom: 10%;
+    margin-right: 5%;
+  }
+  #textUnderPhoto {
+    position: relative;
+    margin: auto;
+    padding-top: 50%;
+  }
+  #divForFinalButton {
+    width: 40%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #textUnderPhoto {
+    padding-top: 80%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  #webIcons {
+    display: flex;
+    flex-direction: column;
+  }
+  #webIcons li {
+    margin: 3%;
+  }
+  #textUnderPhoto {
+    padding-top: 120%;
+  }
+  #footerList {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    flex-direction: column;
+  }
+  #footerList li {
+    margin: 3%;
+  }
+}
